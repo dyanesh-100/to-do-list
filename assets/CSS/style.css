@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.main_container{
+    background-color: burlywood;
+    height: 70%;
+    width: 25%;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+}
+.main_header{
+    padding: 20px 20px;
+}
+.input_container{
+    padding-left: 20px;
+    display: flex;
+}
+.input_bar{
+    padding: 10px 80px;
+    left: 20px;
+}
+.user_input_button{
+    font-size: 25px;
+    padding: 10px 10px;
+    background-color: blueviolet;
+    border: none;
+}
+.task_container{
+    background-color: white;
+    padding: 20px 20px;
+    width: 92%;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.dustbin_button{
+    font-size: 25px;
+    padding: 10px 10px;
+    /* background-color: blueviolet; */
+    border: none;
+    cursor: pointer;
+}
+.dustbin_button:hover{
+    color: red;
+}
+
+
+.checkbox{
+    zoom: 2;
+}
+.dus_icon{
+    font-size: 25px;
+}
