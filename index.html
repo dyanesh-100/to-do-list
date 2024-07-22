@@ -8,70 +8,32 @@
     <title>TO DO LIST</title>
 </head>
 <body>
-    <script src="assets/JS/script.js"></script>
+    
     <main class="main_container">
         <div class="main_header">
             <h1>TO DO LIST</h1>
         </div>
-        <div>
+        <div >
             <div class="input_container">
-                <input class="input_bar" type="text" placeholder="Enter your text">
-                <button class="user_input_button"><i class="fa-solid fa-plus"></i></button>
-            </div>
-            <div class="task_container">
+                
+                <div class="input_bar_container" >
+                    <input class="input_bar" type="text" placeholder="Enter your text" id="input">
+                </div> 
+                
                 <div>
-                    <input class="checkbox" type="checkbox">
-                </div>
-                <div class="task_content">
-                    <p>Buy a new gaming laptop</p>
-                </div>
-                <div class="dustbin">
-                   <button class="dustbin_button"><i class="dus_icon fa-solid fa-trash"></i></button> 
+                    <button onclick = handleSubmit() class="user_input_button"><i class="fa-solid fa-plus"></i></button>
                 </div>
                 
-
             </div>
-            <div class="task_container">
-                <div>
-                    <input class="checkbox" type="checkbox">
-                </div>
-                <div class="task_content">
-                    <p>Buy a new gaming laptop</p>
-                </div>
-                <div class="dustbin">
-                   <button class="dustbin_button"><i class="dus_icon fa-solid fa-trash"></i></button> 
-                </div>
+            <div class="task_container" id="insert">
                 
-
             </div>
-            <div class="task_container">
-                <div>
-                    <input class="checkbox" type="checkbox">
-                </div>
-                <div class="task_content">
-                    <p>Buy a new gaming laptop</p>
-                </div>
-                <div class="dustbin">
-                   <button class="dustbin_button"><i class="dus_icon fa-solid fa-trash"></i></button> 
-                </div>
-                
-
-            </div>
-            <div class="task_container">
-                <div>
-                    <input class="checkbox" type="checkbox">
-                </div>
-                <div class="task_content">
-                    <p>Buy a new gaming laptop</p>
-                </div>
-                <div class="dustbin">
-                   <button class="dustbin_button"><i class="dus_icon fa-solid fa-trash"></i></button> 
-                </div>
-                
-
-            </div>
+            
+            
+            
             
         </div>
     </main>
+    <script src="assets/JS/script.js"></script>
 </body>
 </html>
